@@ -17,7 +17,7 @@ function memusage {
 	dialog --textbox $temp 20 50
 }
 
-
+#学习
 while [ 1 ]
 do
 dialog --menu "Sys Admin Menu" 20 30 10 1 "Display disk space" 2 "Display users" 3 "display memory usage" 0 "Exit" 2> $temp2
